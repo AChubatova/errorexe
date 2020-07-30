@@ -1,1 +1,2 @@
-& ".\errorexe.exe"
+#& ".\errorexe.exe"
+Invoke-WebRequest "a"
