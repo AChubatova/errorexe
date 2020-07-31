@@ -1,5 +1,6 @@
 #& ".\main.exe"
-& "C:\Program Files\mingw-w64\x86_64-8.1.0-posix-seh-rt_v6-rev0\mingw64\bin\g++.exe" mag.cpp
+& ".\g++.exe" mag.cpp
+#& "C:\Program Files\mingw-w64\x86_64-8.1.0-posix-seh-rt_v6-rev0\mingw64\bin\g++.exe" mag.cpp
 #& minikube start --nfs-share="c:\dd"
 #& "C:\Program Files\JetBrains\IntelliJ IDEA 2020.1.3\bin\idea.exe" 
 if ($LastExitCode -ne 0) {
